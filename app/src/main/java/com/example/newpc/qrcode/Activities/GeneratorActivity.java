@@ -45,4 +45,6 @@ public class GeneratorActivity extends AppCompatActivity {
             }
         });
     }
+
+
 }

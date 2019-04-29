@@ -18,12 +18,41 @@
 
     <TextView
         android:id="@+id/last_result"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:textAlignment="center"
+        android:layout_marginTop="50dp"
         android:gravity="center"
         android:text="*The last scan result should be placed here*"
-        android:layout_marginTop="50dp"
+        android:textAlignment="center"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/book_status"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:gravity="center"
+        android:text="Booking status: N/A"
+        android:textAlignment="center"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/booked_carpark"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="125dp"
+        android:gravity="center"
+        android:text="Booked carpark: N/A"
+        android:textAlignment="center"
+        android:textSize="20dp" />
+    <TextView
+        android:id="@+id/money_to_pay"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="150dp"
+        android:gravity="center"
+        android:text="Money to pay: N/A"
+        android:textAlignment="center"
         android:textSize="20dp" />
 
     <Button
@@ -33,4 +62,16 @@
         android:layout_centerVertical="true"
         android:text="SCAN"
         android:id="@+id/scan_btn"/>
+
+    <ImageView
+        android:id="@+id/screen_loading"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:alpha="0.4"
+        android:background="@color/black"
+        android:scaleType="fitXY"
+        android:visibility="invisible"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="0dp" />
+
 </RelativeLayout>
